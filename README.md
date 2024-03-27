@@ -61,4 +61,5 @@ $ bundle lock --add-platform x86_64-linux
 ```
 
 7. その他
+- `heroku run rails db:migrate` を忘れずに
 - rails tutorial 7.5を参照
