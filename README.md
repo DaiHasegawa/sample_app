@@ -54,5 +54,11 @@ plugin :tmp_restart
 ```ruby
 web: bundle exec puma -C config/puma.rb
 ```
-6. その他
+
+6. (for Apple Silicon)
+```shell
+$ bundle lock --add-platform x86_64-linux
+```
+
+7. その他
 - rails tutorial 7.5を参照
