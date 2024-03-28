@@ -24,9 +24,14 @@ group :development do
 end
 
 group :test do
-  gem 'capybara',           '3.28.0'
-  gem 'selenium-webdriver', '3.142.4'
-  gem 'webdrivers',         '4.1.2'
+  gem 'capybara',                 '3.28.0'
+  gem 'selenium-webdriver',       '3.142.4'
+  gem 'webdrivers',               '4.1.2'
+  gem 'rails-controller-testing', '1.0.4'
+  gem 'minitest',                 '5.11.3'
+  gem 'minitest-reporters',       '1.3.8'
+  gem 'guard',                    '2.16.2'
+  gem 'guard-minitest',           '2.4.6'
 end
 
 group :production do
